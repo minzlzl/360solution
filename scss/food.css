@@ -605,4 +605,153 @@ main .food_ad_wrap .food_ad figure {
   font-size: 0;
   margin-right: 100px;
   z-index: 1;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  main .food_con2_wrap {
+    width: 100%;
+  }
+  main .food_con2_wrap .food_con2 {
+    width: 95%;
+  }
+  main .food_con2_wrap .food_con2 ul li {
+    width: 48%;
+  }
+  main .food_con2_wrap .food_con2 ul li figure {
+    margin-bottom: 20px;
+  }
+  main .food_con2_wrap .food_con2 ul li figure img {
+    width: 100%;
+  }
+  main .food_ad_wrap {
+    width: 100%;
+  }
+  main .food_ad_wrap .food_ad {
+    padding: 10px 0 0;
+    width: 95%;
+  }
+  main .food_ad_wrap .food_ad figure {
+    margin-right: 10px;
+    margin-top: 50px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  main .food_con1 {
+    width: 100%;
+  }
+  main .food_con1 .con1_txt {
+    width: 80%;
+    margin: auto;
+  }
+  main .food_con2_wrap {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  main .food_con2_wrap .food_con2 {
+    width: 95%;
+  }
+  main .food_con2_wrap .food_con2 ul li {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  main .food_con2_wrap .food_con2 ul li:last-child {
+    margin-bottom: 0;
+  }
+  main .food_con2_wrap .food_con2 ul li figure {
+    margin-bottom: 20px;
+  }
+  main .food_con2_wrap .food_con2 ul li figure img {
+    width: 100%;
+  }
+  main .food_ad_wrap {
+    width: 100%;
+  }
+  main .food_ad_wrap .food_ad {
+    display: block;
+    padding: 50px 0 0;
+    width: 80%;
+  }
+  main .food_ad_wrap .food_ad .ad_txt {
+    text-align: center;
+  }
+  main .food_ad_wrap .food_ad figure {
+    margin-right: 0;
+    margin-top: 30px;
+    text-align: center;
+  }
+  main .food_ad_wrap .food_ad::after {
+    content: none;
+  }
+}
+@media (max-width: 480px) {
+  main .food_con1 {
+    width: 100%;
+    height: 300px;
+  }
+  main .food_con1 .con1_txt {
+    width: 80%;
+    margin: auto;
+  }
+  main .food_con1 .con1_txt h2 {
+    font-size: 30px;
+  }
+  main .food_con1 .con1_txt p:nth-of-type(1) {
+    font-size: 15px;
+  }
+  main .food_con1 .con1_txt p:nth-of-type(2) {
+    font-size: 17px;
+  }
+  main .food_con2_wrap {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  main .food_con2_wrap .food_con2 {
+    width: 95%;
+  }
+  main .food_con2_wrap .food_con2 ul li {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  main .food_con2_wrap .food_con2 ul li:nth-of-type(1) {
+    margin-bottom: 60px;
+  }
+  main .food_con2_wrap .food_con2 ul li:last-child {
+    margin-bottom: 0;
+  }
+  main .food_con2_wrap .food_con2 ul li figure {
+    margin-bottom: 20px;
+  }
+  main .food_con2_wrap .food_con2 ul li figure img {
+    width: 100%;
+  }
+  main .food_con2_wrap .food_con2 ul li .food_con2_txt b {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  main .food_con2_wrap .food_con2 ul li .food_con2_txt p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  main .food_ad_wrap {
+    width: 100%;
+  }
+  main .food_ad_wrap .food_ad {
+    display: block;
+    padding: 50px 0 0;
+    width: 80%;
+  }
+  main .food_ad_wrap .food_ad .ad_txt {
+    text-align: center;
+  }
+  main .food_ad_wrap .food_ad .ad_txt b {
+    font-size: 27px;
+  }
+  main .food_ad_wrap .food_ad figure {
+    margin-right: 0;
+    margin-top: 30px;
+    text-align: center;
+  }
+  main .food_ad_wrap .food_ad::after {
+    content: none;
+  }
 }/*# sourceMappingURL=food.css.map */

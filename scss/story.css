@@ -593,4 +593,159 @@ main .story_con2_wrap .story_con2 ul li .con2_txt a::after {
 main .story_con2_wrap .story_con2 ul li .con2_txt a:hover {
   background-color: #0077C0;
   color: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  main .story_con1 .con1_txt {
+    width: 80%;
+    margin: auto;
+  }
+  main .story_con2_wrap {
+    margin-bottom: 100px;
+    width: 100%;
+  }
+  main .story_con2_wrap .story_con2 {
+    width: 95%;
+  }
+  main .story_con2_wrap .story_con2 ul li {
+    padding: 20px 35px;
+  }
+  main .story_con2_wrap .story_con2 ul li > figure {
+    width: 50%;
+    font-size: 0;
+    margin-right: 20px;
+  }
+  main .story_con2_wrap .story_con2 ul li > figure img {
+    width: 100%;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt .icon_txt {
+    margin-bottom: 15px;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt .icon_txt > figure img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt .icon_txt .flex b {
+    font-size: 18px;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt .icon_txt .flex > p {
+    font-size: 16px;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt > p {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt a {
+    padding: 13px 30px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  main .story_con1 .con1_txt {
+    width: 80%;
+    margin: auto;
+  }
+  main .story_con2_wrap {
+    margin-bottom: 100px;
+    width: 100%;
+  }
+  main .story_con2_wrap .story_con2 {
+    width: 95%;
+  }
+  main .story_con2_wrap .story_con2 ul li {
+    padding: 50px 35px;
+    display: block;
+  }
+  main .story_con2_wrap .story_con2 ul li > figure {
+    width: 100%;
+    font-size: 0;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+  main .story_con2_wrap .story_con2 ul li > figure img {
+    width: 100%;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt .icon_txt {
+    margin-bottom: 15px;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt .icon_txt > figure img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt .icon_txt .flex b {
+    font-size: 18px;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt .icon_txt .flex > p {
+    font-size: 16px;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt > p {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt a {
+    padding: 13px 30px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  main .story_con1 {
+    height: 300px;
+  }
+  main .story_con1 .con1_txt {
+    width: 80%;
+    margin: auto;
+  }
+  main .story_con1 .con1_txt b {
+    font-size: 30px;
+  }
+  main .story_con1 .con1_txt p:nth-of-type(1) {
+    font-size: 15px;
+  }
+  main .story_con1 .con1_txt p:nth-of-type(2) {
+    font-size: 17px;
+  }
+  main .story_con2_wrap {
+    margin-bottom: 100px;
+    width: 100%;
+  }
+  main .story_con2_wrap .story_con2 {
+    width: 95%;
+  }
+  main .story_con2_wrap .story_con2 ul li {
+    padding: 50px 35px;
+    display: block;
+  }
+  main .story_con2_wrap .story_con2 ul li > figure {
+    width: 100%;
+    font-size: 0;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+  main .story_con2_wrap .story_con2 ul li > figure img {
+    width: 100%;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt .icon_txt {
+    margin-bottom: 15px;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt .icon_txt > figure {
+    display: none;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt .icon_txt > figure img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt .icon_txt .flex b {
+    font-size: 18px;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt .icon_txt .flex > p {
+    font-size: 16px;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt > p {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+  main .story_con2_wrap .story_con2 ul li .con2_txt a {
+    padding: 13px 30px;
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=story.css.map */

@@ -112,3 +112,191 @@ main{
     }
   }
 }
+@media (min-width:768px) and (max-width:1200px){
+  main{
+    .story_con1{
+      .con1_txt{
+        width:80%;
+        margin: auto;
+      }
+    }
+    .story_con2_wrap{
+      margin-bottom: 100px;
+      width:100%;
+      .story_con2{
+        width:95%;
+        ul{
+          li{
+            padding: 20px 35px;
+            >figure{
+              width:50%;
+              font-size: 0;
+              margin-right: 20px;
+              img{
+                width:100%;
+              }
+            }
+            .con2_txt{
+              .icon_txt{
+                margin-bottom: 15px;
+                >figure{
+                  img{
+                    width:100%;
+                    border-radius: 50%;
+                  }
+                }
+                .flex{
+                  b{
+                    font-size: 18px;
+                  }
+                  >p{
+                    font-size: 16px;
+                  }
+                }
+              }
+              >p{
+                font-size: 15px;
+                margin-bottom: 25px;
+              }
+              a{
+                padding: 13px 30px;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width:481px) and (max-width:767px){
+  main{
+    .story_con1{
+      .con1_txt{
+        width:80%;
+        margin: auto;
+      }
+    }
+    .story_con2_wrap{
+      margin-bottom: 100px;
+      width:100%;
+      .story_con2{
+        width:95%;
+        ul{
+          li{
+            padding: 50px 35px;
+            display: block;
+            >figure{
+              width:100%;
+              font-size: 0;
+              margin-right: 20px;
+              margin-bottom: 30px;
+              img{
+                width:100%;
+              }
+            }
+            .con2_txt{
+              .icon_txt{
+                margin-bottom: 15px;
+                >figure{
+                  img{
+                    width:100%;
+                    border-radius: 50%;
+                  }
+                }
+                .flex{
+                  b{
+                    font-size: 18px;
+                  }
+                  >p{
+                    font-size: 16px;
+                  }
+                }
+              }
+              >p{
+                font-size: 15px;
+                margin-bottom: 25px;
+              }
+              a{
+                padding: 13px 30px;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width:480px){
+  main{
+    .story_con1{
+      height:300px;
+      .con1_txt{
+        width:80%;
+        margin: auto;
+        b{
+          font-size: 30px;
+        }
+        p{
+          &:nth-of-type(1){
+            font-size: 15px;
+          }
+          &:nth-of-type(2){
+            font-size: 17px;
+          }
+        }
+      }
+    }
+    .story_con2_wrap{
+      margin-bottom: 100px;
+      width:100%;
+      .story_con2{
+        width:95%;
+        ul{
+          li{
+            padding: 50px 35px;
+            display: block;
+            >figure{
+              width:100%;
+              font-size: 0;
+              margin-right: 20px;
+              margin-bottom: 30px;
+              img{
+                width:100%;
+              }
+            }
+            .con2_txt{
+              .icon_txt{
+                margin-bottom: 15px;
+                >figure{
+                  display: none;
+                  img{
+                    width:100%;
+                    border-radius: 50%;
+                  }
+                }
+                .flex{
+                  b{
+                    font-size: 18px;
+                  }
+                  >p{
+                    font-size: 16px;
+                  }
+                }
+              }
+              >p{
+                font-size: 15px;
+                margin-bottom: 25px;
+              }
+              a{
+                padding: 13px 30px;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
