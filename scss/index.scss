@@ -68,8 +68,26 @@ main{
             li{
               margin-bottom: 30px;
               font-size: 0;
+              position: relative;
               img{
                 border-radius: 30px;
+                z-index: 1;
+              }
+              &::after{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 97%;
+                height: 97%;
+                border: 7px solid #FDB933;
+                border-radius: 30px;
+                display: none;
+              }
+              &:hover{
+                &::after{
+                  display: block;
+                }
               }
             }
           }

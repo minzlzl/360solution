@@ -572,9 +572,25 @@ main .con1_wrap .con1 .slide_wrap .slide ul:nth-of-type(2) li {
 main .con1_wrap .con1 .slide_wrap .slide ul li {
   margin-bottom: 30px;
   font-size: 0;
+  position: relative;
 }
 main .con1_wrap .con1 .slide_wrap .slide ul li img {
   border-radius: 30px;
+  z-index: 1;
+}
+main .con1_wrap .con1 .slide_wrap .slide ul li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 97%;
+  height: 97%;
+  border: 7px solid #FDB933;
+  border-radius: 30px;
+  display: none;
+}
+main .con1_wrap .con1 .slide_wrap .slide ul li:hover::after {
+  display: block;
 }
 main .con1_wrap .con1 .w_img {
   background: url(../imgs/visual.svg);
